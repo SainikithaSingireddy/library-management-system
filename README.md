@@ -39,6 +39,7 @@ library-management-system/
 -Token is used in protected routes
 
 ### API Endpoints
+```
 ---Auth---
 -POST /api/auth/register
 -POST /api/auth/login
@@ -52,7 +53,7 @@ library-management-system/
 -POST /api/borrow/:id/borrow
 -POST /api/borrow/:id/return
 -GET /api/borrow/my-books
-
+```
 ### Setup Instructions
 npm install
 
